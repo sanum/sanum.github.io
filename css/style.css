@@ -71,6 +71,24 @@ h1, h2, h3, h4, h5, h6 {
     border: 0px;
 }
 
+.image-list-items {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.image-list-item {
+    display: inline-block;
+    margin: 0 5px 10px 0;
+}
+
+.image-list-items .image-list-item__landscape a img {
+    max-width: 300px;
+}
+
+.image-list-items .image-list-item__portrait a img {
+    max-width: 140px;
+}
+
 @media (min-width:768px) { 
     .navbar-default .nav li a {
         font-size: 6pt;
