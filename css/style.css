@@ -40,6 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #fec503;
 }
 
+
+.navbar-item.active {
+    color: #F00;
+    border-color: #ffdf3f;
+    background-color: #F00;
+}
+
+
 .navbar-default .navbar-toggle {
     border-color: #ffdf3f;
     background-color: #fed136;
