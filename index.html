@@ -179,8 +179,8 @@
 		            <b>Annie Cuyt - Exponential Analysis</b> .
 		            <p>The Nyquist constraint, which is the digital signal
 processing equivalent of stating that the argument of a complex
-exponential $\exp(\phi\Delta)$ with $\phi\in\mathbb{C}$ and $\Delta\in\mathbb{R}^+$ can
-only be retrieved uniquely under the condition that $|\Im(\phi)|\Delta < \pi$, 
+exponential \(\exp(\phi\Delta)\) with \(\phi\in\mathbb{C}\) and \(\Delta\in\mathbb{R}^+\) can
+only be retrieved uniquely under the condition that \(|\Im(\phi)|\Delta < \pi\), 
 governs signal processing since the beginning of the 20-th century. In the
 past two decades this constraint was first broken 
 with the use of randomly collected signal samples
@@ -192,23 +192,23 @@ algorithm published in 1795 by the French mathematician de Prony. Besides avoidi
 also solves a number of remaining open problems in exponential analysis, 
 which we plan to discuss. 
 \smallskip
-In the identification, from given values $f_k \in \mathbb{C}$,
-of the nonlinear parameters $\phi_1, \ldots, \phi_n \in\mathbb{C}$, the linear
-coefficients $\alpha_1, \ldots, \alpha_n \in \mathbb{C}$ and the sparsity $n \in
-\mathbb{N}$ in the inverse problem
+In the identification, from given values \(f_k \in \mathbb{C}\),
+of the nonlinear parameters \(\phi_1, \ldots, \phi_n \in\mathbb{C}\), the linear
+coefficients \(\alpha_1, \ldots, \alpha_n \in \mathbb{C}\) and the sparsity \(n \in
+\mathbb{N}\) in the inverse problem
 \begin{equation}
 \sum_{j=1}^n \alpha_j \exp(\phi_j k\Delta) = f_k, \qquad k=0, \ldots,
 2n-1, \ldots \quad f_k \in \mathbb{C}, \quad \Delta \in \mathbb{R}^+\qquad (1)
 \end{equation}
 several cases are considered to be hard:</p>
 <ul>
- <li> When some of the $\phi_j$ cluster, the identification and separation 
-of these clustered $\phi_j$ becomes numerically ill-conditioned. We show how
+ <li> When some of the \(\phi_j\) cluster, the identification and separation 
+of these clustered \(\phi_j\) becomes numerically ill-conditioned. We show how
 the problem may be reconditioned.</li>
-<li> From noisy $f_k$ samples, retrieval of the correct value of $n$ is
-difficult, and more so in case of clustered $\phi_j$. 
+<li> From noisy \(f_k\) samples, retrieval of the correct value of \(n\) is
+difficult, and more so in case of clustered \(\phi_j\). 
 Here, decimation of the data offers a way to obtain a
-reliable estimate of $n$ automatically.</li>
+reliable estimate of \(n\) automatically.</li>
 <li> Such decimation allows to divide and conquer the inverse problem
 statement. The smaller subproblems are largely
 independent and can be solved in parallel, 
@@ -216,16 +216,16 @@ leading to an improved complexity and efficiency.</li>
 <li> At the same time, the sub-Nyquist Prony method proves to be robust
 with respect to outliers in the data. Making use of some approximation
 theory results , we can also validate the
-computation of the $\phi_j$ and $\alpha_j$.</li>
+computation of the \(\phi_j\) and \(\alpha_j\).</li>
 <li> The Nyquist constraint effectively restricts the bandwidth of the
-$\Im(\phi_j)$. Therefore, avoiding the constraint offers so-called
-superresolution, %or bandwidth extension,
+\(\Im(\phi_j)\). Therefore, avoiding the constraint offers so-called
+superresolution, or bandwidth extension,
 or the possibility to unearth higher frequency components in the samples.</li>
 </ul>
 <p>
 All of the above can be generalized in several ways, to the use of more
 functions besides the exponential on the one hand, and to the solution of
-multdimensional inverse problems as in (1) on the other.</p>		  
+multidimensional inverse problems as in (1) on the other.</p>		  
             </div>            
             <div id="abstractLeVeque" class="collapse">
                     <b>Randy LeVeque - Coupled Seismic/Hydroacoustic/Tsunami Simulations</b>
