@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     font-family: Helvetica, Arial, sans-serif;
     webkit-tap-highlight-color: #fed136;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -211,9 +211,10 @@ section {
 /* --------------------- FOOTER --------------------------- */
 
 footer {
-    padding: 25px 0;
+    padding: 2px 0;
     text-align: center;
     background-color: #DDD;
+    border-radius: 10px;
 }
 
 /* -------------------------------------------------------- */

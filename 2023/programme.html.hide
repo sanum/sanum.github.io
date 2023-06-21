@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>SANUM - programme</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+        <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li class="nav-item" ><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">SANUM<br/> History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">SANUM2020<br/> Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="participants.html">SANUM2020<br/> Participants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programme.html">SANUM2020 Venue<br/> / Programme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="travel.html">SANUM2020 Travel<br/> / Accommodation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><img src="img/logo-wb.png" height="60pt" style="margin-top:7pt;"></li>                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container" style="margin-top:60pt;">
+    
+        <section class="bg-light-gray">
+        <h4>Venues</h4>
+        <p>The organisers are pleased to announce that the 2020 conference will again be hosted in the <a href="https://goo.gl/maps/rOqZW">Mathematical Sciences 
+        and Industrial Psychology</a> building on Stellenbosch University Campus (number 67 on the <a href="http://www.sun.ac.za/english/welcome/Documents/Main%20campus%20map%20revised.pdf">Campus Map</a>).
+        Parking on campus is very limited, so we suggest you walk in if at all possible.</p>
+        
+        <div align="center">  		
+		<img src="img/venue/hoof.jpeg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;" />
+		<img src="img/venue/campus.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		<img src="img/venue/RooiPlein.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		</div>        
+        
+        <p style="margin-top:10px;">A welcome reception will take place at <a href="http://www.sun.ac.za/english/entities/botanical-garden/visitor-information/katjiepiering-restaurant">Katjiepiering restaurant</a> in <a href="http://www.sun.ac.za/english/entities/botanical-garden/">Stellenbosch Botanical Gardens</a>, and the conference dinner will be a "boerebraai" at the nearby <a href="http://www.middelvlei.co.za/eat.aspx?EATID=275&CLIENTID=3216">Middelvlei wine farm</a>!</p>
+        
+        <div align="center">  		
+		<img src="img/venue/botanical.jpeg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;" />
+		<img src="img/venue/image5.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		<img src="img/venue/winefarm.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		</div>		
+		
+        </section>
+        
+        <section class="bg-dark-gray">
+        <h4>Programme</h4>
+        <p>The draft programme outline can be found below. The full conference programme will be available in early March.</p>
+        <div align="center">  		
+		<img src="img/timetable.png" class="img-rounded" style="width:800px; margin-left:5pt; margin-right:5pt;" />
+		</div>
+        </section>
+    
+    <!--
+        <section class="bg-light-gray">
+            <h4>Conference Venue</h4>
+            <p>We are pleased to announce that SANUM2018 will be hosted in the Mathematical Sciences building of Stellenbosch University.<br/>
+            (The same vanue as in 2016. Building 67 on the <a href="img/stellenbosch_campus_map_2017.pdf">Campus map</a>.)<br/>
+            <h4>Dinner Venue</h6>
+            <p>The conference dinner on the 5th of April will be hosted at <a href="https://neethlingshof.co.za/about-the-estate/restaurant/">The Estate Restaurant</a> 
+            on <a href="http://www.neethlingshof.co.za/">
+            Neethlingshof Wine Estate</a>, a short 15 minute drive (<a href="https://goo.gl/maps/8TCmBVYugqx">map here</a>) from Central Stellenbosch. 
+            The conference dinner is included in the (non-student) registration fee, but additional tickets may be purchased at R500 each. A three
+            course meal will be served (menu available nearer the time). Wine is not included, but may be purchased at your own expense. Transportation 
+            to the venue will be arranged during the conference.</p>
+		<div align="center">  		
+		<img src="img/venue/RooiPlein.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;" />
+		<img src="img/venue/campus.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		<img src="img/venue/neethlingshof.jpg" class="img-rounded" style="width:340px; height:200px; margin-left:5pt; margin-right:5pt;"/>
+		</div>
+        </section>
+        
+        -->
+<!--        
+        <section class="bg-dark-gray">
+            <h4>Special sessions</h4>
+            <p> We are pleased to announce the following special sessions:</p>
+            <ul>
+                <li>Data Science
+			  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#abstract_OP">view details</button>
+			  <div id="abstract_OP" class="collapse">
+			<p> Data Science is a new and evolving discipline that attempts to systematically find insights from data. Due to the data deluge of our generation and tremendous increase in computing power, Data Science has recently generated a lot of interest in both academia and industry. Researchers are working on very interesting mathematical and computational research questions in Data Science, but also on applications of Data Science to support decision making in all facets of life. This session will be composed of talks from the mathematics, computations and applications of Data Science.</p>
+                	</p><p> If you are interested in presenting in this session, please contact Bubacarr Bah at 
+			<a href="mailto:bubacarr@aims.ac.za">bubacarr@aims.ac.za</a>.</p>
+			 </div>
+		</li>
+                <li>Finite Element Methods and CFD
+			  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#abstract_ML">view details</button>
+			  <div id="abstract_ML" class="collapse">
+            		<p> 
+            		This special session focuses on finite element and finite volume methods used in computational fluid dynamics and structural mechanics. Presentations on the advances of the methods themselves, as well as on applications in any field, will be considered. 
+                	</p>
+                	<p>If you are interested in presenting in this session, please contact Andie de Villiers at <a href="mailto:andiedevilliers@sun.ac.za">andiedevilliers@sun.ac.za</a>.</p>
+			  </div>
+
+		</li>
+                <li>Industrial Mathematics
+			  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#abstract_E">view details</button>
+			  <div id="abstract_E" class="collapse">
+            			<p>
+					The aim of this special session is to promote the wide range of activities taking place in industrial 
+					mathematics in South Africa. Presentations in all areas of numerical and analytical mathematics 
+					(including optimization, control theory, image processing, fluid and solid mechanics) applied to 
+					industrial problems will be considered. Problems containing substantial mathematical modelling will 
+					be particularly welcome. All branches of South African industry will be considered, including manufacturing, 
+					mining, conservation and 
+					renewable energy, wine industry, sugar industry, iron and steel, and leisure industries such as sport and tourism.
+                                </p>
+                         	<p>If you are interested in presenting in this session, 
+					please contact Ashleigh Hutchinson at <a href="mailto:Ashleigh.Hutchinson@wits.ac.za">ashleigh.hutchinson@wits.ac.za</a>.</p>
+			  </div>
+		</li>
+            </ul>
+        </section>
+        -->
+        
+        <!--
+        <section class="bg-light-gray">
+            <h4>Programme</h4>
+            <p>The book of abstracts is available <a href="files/sanum2018.pdf">here</a>.</p>
+            <div align="center">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4YP0-k3Un0aqdQdQKrbvswZXGkjHoixPZvxR4E8WscqtLfgQlD78OMgFsxZ8G-uo-91ba4m-udppm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width=830pt height=750pt></iframe>
+                </div>
+        </section> -->
+    
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>

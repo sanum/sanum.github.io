@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>SANUM - participants</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Mathjax -->
+<!--    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+      MathJax.Hub.Config({
+        tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+        }
+        });
+        MathJax.Hub.Config({
+          TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });        
+    </script> -->
+    
+    <script>
+    .abstract {
+        font-size: smaller;
+    </script>
+   
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+        <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li class="nav-item" ><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">SANUM<br/> History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">SANUM2020<br/> Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="participants.html">SANUM2020<br/> Participants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programme.html">SANUM2020 Venue<br/> / Programme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="travel.html">SANUM2020 Travel<br/> / Accommodation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><img src="img/logo-wb.png" height="60pt" style="margin-top:7pt;"></li>                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+
+    <div class="container"  style="margin-top:60pt;">
+        <section id="team" class="bg-light-gray">
+            <h4>Plenary speakers</h4>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/bornemann.jpg" class="img-responsive img-circle" alt="Folkmar Bornemann" style="height:200px; width:200px;">
+                        <h5>Folkmar Bornemann<br/> (TU Munich)</h5>
+                    </div>
+                </div> 
+                <div class="col-sm-8">
+                <b>The SIAM 100-Digit Challenge Revisited (Dedicated to the memory of Dirk Laurie)</b>
+                    <p style="font-size:small;">Nick Trefethen’s "SIAM 100-Digit Challenge" from 2002 was very much to the heart of Dirk Laurie’s mathematical tastes and, consequently, he got to be one of the single-handed winners of this contest. In its wake the two of us teamed up with Stan Wagon (USA) and J&ouml;rg Waldvogel (CH) to write a book about the allure of the ten problems and about the huge variety of different mathematical and computational approaches that are available to solve them. Even though, by rephrasing Zhou Enlai, it is still too early to tell about the impact of this challenge, we will revisit some aspects from about nearly twenty years later: philosophy, problems, solutions, and software - old and new.</p>
+                </div>     
+            
+            </div>    
+            <div class="row">
+                                               
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/cuyt.jpg" class="img-responsive img-circle" alt="Annie Cuyt" style="height:200px; width:200px;">
+                        <h5>Annie Cuyt<br/>(University of Antwerp)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+		            <b>Exponential Analysis</b> .
+		            <p style="font-size:small;">The Nyquist constraint, which is the digital signal
+processing equivalent of stating that the argument of a complex
+exponential \(\exp(\phi\Delta)\) with \(\phi\in\mathbb{C}\) and \(\Delta\in\mathbb{R}^+\) can
+only be retrieved uniquely under the condition that \(|\Im(\phi)|\Delta < \pi\), 
+governs signal processing since the beginning of the 20-th century. In the
+past two decades this constraint was first broken 
+with the use of randomly collected signal samples
+and later for use with uniform samples.
+\smallskip
+
+The latter method closely relates to the original exponential fitting
+algorithm published in 1795 by the French mathematician de Prony. Besides avoiding the Nyquist constraint, the result
+also solves a number of remaining open problems in exponential analysis, 
+which we plan to discuss. 
+\smallskip
+In the identification, from given values \(f_k \in \mathbb{C}\),
+of the nonlinear parameters \(\phi_1, \ldots, \phi_n \in\mathbb{C}\), the linear
+coefficients \(\alpha_1, \ldots, \alpha_n \in \mathbb{C}\) and the sparsity \(n \in
+\mathbb{N}\) in the inverse problem
+\begin{equation}
+\sum_{j=1}^n \alpha_j \exp(\phi_j k\Delta) = f_k, \qquad k=0, \ldots,
+2n-1, \ldots \quad f_k \in \mathbb{C}, \quad \Delta \in \mathbb{R}^+\qquad (1)
+\end{equation}
+several cases are considered to be hard:</p>
+<ul style="font-size:small;">
+ <li> When some of the \(\phi_j\) cluster, the identification and separation 
+of these clustered \(\phi_j\) becomes numerically ill-conditioned. We show how
+the problem may be reconditioned.</li>
+<li> From noisy \(f_k\) samples, retrieval of the correct value of \(n\) is
+difficult, and more so in case of clustered \(\phi_j\). 
+Here, decimation of the data offers a way to obtain a
+reliable estimate of \(n\) automatically.</li>
+<li> Such decimation allows to divide and conquer the inverse problem
+statement. The smaller subproblems are largely
+independent and can be solved in parallel, 
+leading to an improved complexity and efficiency.</li>
+<li> At the same time, the sub-Nyquist Prony method proves to be robust
+with respect to outliers in the data. Making use of some approximation
+theory results , we can also validate the
+computation of the \(\phi_j\) and \(\alpha_j\).</li>
+<li> The Nyquist constraint effectively restricts the bandwidth of the
+\(\Im(\phi_j)\). Therefore, avoiding the constraint offers so-called
+superresolution, or bandwidth extension,
+or the possibility to unearth higher frequency components in the samples.</li>
+</ul>
+<p style="font-size:small;">
+All of the above can be generalized in several ways, to the use of more
+functions besides the exponential on the one hand, and to the solution of
+multidimensional inverse problems as in (1) on the other.</p>		  
+        
+                </div>     
+            
+            </div>    
+            <div class="row">
+              
+              <!--
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/randy.jpeg" class="img-responsive img-circle" alt="Randy LeVeque" style="height:200px; width:200px;">
+                        <h5>Randy LeVeque<br/> (University of Washington)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                <b>Coupled Seismic/Hydroacoustic/Tsunami Simulations</b>
+<p style="font-size:small;">A widespread approach for tsunami simulation is to model the ocean with the shallow water equations (SWE).  The steady-state ocean floor deformation that results from a seismic event is often used as the initial ocean surface profile for the SWE, taking advantage of the separation of the tsunami and seismic timescales when the event occurs far from the inundation area of interest.  This work focuses instead on tsunamis generated by near-field seismic events and the data that might be measured by proposed seafloor sensors for use in tsunami early warning, as part of a project to study the feasibility and utility of an offshore network of sensors on the Cascadia Subduction Zone (<a href="http://cascadiaoffshore.org">cascadiaoffshore.org</a>). The dynamic seismic/acoustic and tsunami waves are simulated by modeling the ground as an elastic solid that is coupled with an acoustic ocean layer.  A gravity term is added to the ocean layer in order to capture the tsunami (gravity waves) that are generated by the acoustic waves.  The AMRClaw and Geoclaw (<a href="https://www.clawpack.org">www.clawpack.org</a>) packages are used to simulate the resulting waves, and to explore some of the issues that arise.</p>
+                </div>      -->
+            
+            </div>    
+            <div class="row">
+            
+            
+            <!--    
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/lothar.jpeg" class="img-responsive img-circle" alt="Lother Reichel" style="height:200px; width:200px;">
+                        <h5>Lothar Reichel<br/> (Kent State University)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                <b>Generalized Anti-Gauss-type Quadrature rules</b> 
+                <p style="font-size:small;">                
+		        It is important to be able to estimate the error in Gauss quadrature rules.
+Dirk Laurie introduced anti-Gauss quadrature rules for estimating the error
+in Gauss rules associated with a positive measure with support on an interval.
+Several generalizations of anti-Gauss quadrature rules will be described,
+including generalizations to matrix-valued measures and to quadrature rules
+associated with multiple orthogonal polynomials. This talk presents joint work
+with Hessah Alqahtani and Miroslav Prani&#263;.</p></p>
+                </div>                 
+                
+                -->
+                
+            </div>    
+            <div class="row">    
+                        
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/sibanda.jpeg" class="img-responsive img-circle" alt="Precious Sibanda" style="height:200px; width:200px;">
+                        <h5>Precious Sibanda<br/> (University of KwaZulu-Natal)</h5>
+                    </div>
+                </div>     
+                <div class="col-sm-8">
+                <b>On Convective Thermal Instability in Rotating Fluids</b> 
+                <p style="font-size:small;">We revisit problems of double diffusive convection in a ferromagnetic fluid layer with temperature modulation and thermal instability in a porous layer saturated using a nanofluid model. We review and show how some classical results may be derived from the new configuration. In the case of nonlinear instability, we derive Ginzburg-Landau and Lorentz type equations appropriate for the nanofluid. We demonstrate how a multi-domain spectral collocation method may be used to solve a system of amplitude evolution equations.</p></p>
+                </div>      
+                
+            </div>    
+            <div class="row">                              
+                                 
+                                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/hugo2.jpg" class="img-responsive img-circle" alt="Hugo Touchette" style="height:200px; width:200px;">
+                        <h5>Hugo Touchette <br/> (Stellenbosch University)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                <b>Predicting and simulating rare events</b>
+            <p style="font-size: small;">It is important in many areas of science and engineering to be able to predict and simulate rare events with very small probabilities, say of the order of \(10^{-10}\), but whose occurrence may have negative or even catastrophic consequences. Examples include internet server overflows, mechanical breakdowns, floods, and financial crashes. Rare events can also have positive effects, for example, when triggering chemical reactions or driving genetic evolution via random mutations. In these examples, it is important not only to estimate the probability of rare events, but also to predict how these events happen following specific trajectories or mechanisms, called transition pathways.</p>
+
+            <p style="font-size: small;">Of course, one can't just simulate a given system to 'see' rare events, since they're rare! New types of simulations are required and usually involve biasing the system artificially to render a rare event typical. In this talk, I will give an overview of recent algorithms that have been developed in statistics, engineering, and physics to efficiently simulate rare events in Markov processes. I will focus on algorithms based on importance sampling, a general biasing technique for which optimality results can be obtained in the context of a theory of rare events known as large deviation theory.</p>
+                </div> 
+                
+            </div>    
+            <div class="row">
+                          
+                          <!--      
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/irene.jpg" class="img-responsive img-circle" alt="Irene Vignon-Clementel" style="height:200px; width:200px;">
+                        <h5>Irene Vignon-Clementel <br/> (Inria & Sorbonne Universit&eacute;)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                <b>Computational investigations of blood flow: towards a better understanding of surgical procedures and disease progression</b>
+                <p style="font-size:small;">Blood flow modeling has become quite mature through advances of multidomain or multiscale methods that take into account the interaction between a local change due to disease or intervention and the rest of the circulation. An important step in patient-specific simulations is model parameterization from data. We will show how numerical challenges have been faced on these topics. We will then illustrate through different applications how hemodynamics modeling can help to ask ‘what if’ questions on the computer to better understand the effect of surgery in different disease states, or even to test novel surgical procedures. Modeling can also be combined with machine learning to anticipate the risk in disease progression. We will present different clinical cases from congenital heart disease, liver disease and cardiovascular acquired disease.</p>
+                </div>      
+                
+            </div>    
+            
+            -->
+            
+            <!--
+            <div class="row"> 
+                            
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/speakers/lesley.jpg" class="img-responsive img-circle" alt="Lesley Ward" style="height:200px; width:200px;">
+                        <h5>Lesley Ward<br/> (University of South Australia)</h5>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                <b>Fourier, Harmonic Analysis, and Spaces of Homogeneous Type</b>
+            <p style="font-size:small;">What do the integers, the Sierpi&#324;ski gasket, compact Riemann surfaces and the Heisenberg group have in common? Each of them is a space of homogeneous type \((X,d,\mu)\): a set \(X\) equipped with a way of measuring the distance between any two points (a quasi-metric \(d\)) and a way of measuring the volume of subsets of \(X\) (a doubling measure \(\mu\)). A familiar example is Euclidean space \(\mathbb{R}^n\) equipped with the Euclidean metric and Lebesgue measure. Spaces of homogeneous type arise in many areas, including several complex variables and Riemannian geometry.</p>
+
+<p style="font-size:small;">The Calder&oacute;n-Zygmund theory in harmonic analysis deals with singular integral operators and the functions on which they act. Early impetus came from problems in partial differential equations and Fourier analysis. Here we focus on the generalisation from functions defined on Euclidean spaces \(\mathbb{R}^n\) to functions defined on spaces \(X\) of homogeneous type. In particular, for general \(X\) the Fourier transform and the group structure of \(\mathbb{R}^n\) are missing.</p>
+
+<p style="font-size:small;">The goal is to build a Calder&oacute;n-Zygmund theory on spaces of homogeneous type. I will survey some recent progress towards this goal.</p>
+                </div>      
+                
+            </div>    
+            -->
+
+        </section>
+        
+
+        <section class="bg-dark-gray">
+            <h4>Participants list</h4>
+            <ul>
+            <li></li>
+            <li></li>
+            <li></li>                        
+            </ul>
+            
+            <p>Participants will be added here soon. For now we encourage participants to register <a href="registration.html">here</a>.</p>
+        </section>
+
+
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
