@@ -171,7 +171,7 @@ header .myintro {
     padding-bottom:10px; 
     border-radius: 25px;
     color:#111; 
-    opacity:.9;
+    opacity:.99;
 }
 
 @media(min-width:768px) {
