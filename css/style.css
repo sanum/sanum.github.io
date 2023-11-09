@@ -52,6 +52,10 @@ p {
 	text-transform: uppercase;
 }
 
+.container {
+	max-width:1100px;
+}
+
 
 /* -------------------------------------------------------- */
 
