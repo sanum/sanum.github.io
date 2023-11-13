@@ -44,16 +44,20 @@ p {
 
 .collapse {
 	font-size:large; 
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .collapsing {
 	font-size:large; 
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .container {
 	max-width:1100px;
+}
+
+.navbar-nav  li {
+    padding-left: 1em;
 }
 
 
@@ -76,7 +80,7 @@ header .intro {
     padding-top:10px; 
     padding-bottom:10px; 
     border-radius: 25px;
-    color:#111; 
+    color:#000; 
     opacity:.99;
 }
 
@@ -115,7 +119,7 @@ header .intro-heading {
     }
     
     header .intro {
-        width: 500px;
+        width: 600px;
     }
 }
 
