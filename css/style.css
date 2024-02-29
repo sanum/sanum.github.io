@@ -42,16 +42,16 @@ p {
     padding-bottom:0px;
     padding-top:5px;
 }
-
+/*
 .collapse {
-	font-size:large; 
+	%font-size:large; 
 	text-transform: lowercase;
 }
 
 .collapsing {
 	font-size:large; 
 	text-transform: lowercase;
-}
+}*/
 
 .container {
 	max-width:1100px;

@@ -17,7 +17,7 @@
   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
   <link href="css/style.css" rel="stylesheet">
   <!-- Mathjax -->
-  <!--    <script type="text/javascript" async
+      <script type="text/javascript" async
       src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
       MathJax.Hub.Config({
         tex2jax: {
@@ -28,7 +28,7 @@
         MathJax.Hub.Config({
           TeX: { equationNumbers: { autoNumber: "AMS" } }
         });        
-    </script> -->
+    </script>
 
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -81,11 +81,50 @@
             </div>
           </div>
           <div class="col-sm-8">
-            <b></b>
-            <p class="mt-4 px-5">
-              <a href="https://www.uantwerpen.be/en/staff/annie-cuyt/">Prof Annie Cuyt</a> is head of the research group Computational Mathematics at the University of Antwerp. She is involved in mathematical research in areas of science where computing plays a central and essential role, emphasizing algorithms, numerical methods, symbolic methods and scientific computing.
+            <b>Title: On the cross-fertilisation of Sparse interpolation and Exponential analysis</b> <br/> 
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseAnnie" aria-expanded="false" aria-controls="collapseAnnie">
+                Abstract
+              </button>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseAnnieBio" aria-expanded="false" aria-controls="collapseAnnieBio">
+                Bio
+              </button>
+            </p>
+            <div class="px-5 collapse mb-1" id="collapseAnnie" style="text-align:justify;">
+              <b>Abstract:</b> The concepts of polynomial and trigonometric interpolation are well-known. 
+              The concepts sparse interpolation (used in computer algebra) and
+              exponential 
+              analysis (from digital signal processing) are generalizations thereof,
+              where respectively the powers or the frequencies in the interpolant are not
+              predefined to be $0, 1, 2, \ldots$. Half of the data is then used to
+              determine the appropriate powers or frequencies.
+              
+              
+              \bigskip
+              
+              \noindent We discuss how sparse interpolation and exponential analysis
+              can cross-fertilize and lead to new results. We thereby focus on the
+              overarching inverse problem of identifying, 
+              from given values $f_k \in \mathbb{C}$,
+              the nonlinear parameters $\phi_1, \ldots, \phi_n \in\mathbb{C}$, the linear
+              coefficients $\alpha_1, \ldots, \alpha_n \in \mathbb{C}$ and the sparsity $n \in
+              \mathbb{N}$ in the interpolation 
+              $$
+              \sum_{j=1}^n \alpha_j \exp(\phi_j k\Delta) = f_k, \qquad k=0, \ldots,
+              2n-1, \ldots \quad \Delta \in \mathbb{R}^+.
+              $$
+            </div>
+            <div class="px-5 collapse mb-1" id="collapseAnnieBio" style="text-align:justify;">
+              <b>Bio:</b> <a href="https://www.uantwerpen.be/en/staff/annie-cuyt/">Prof Annie Cuyt</a> is head of the research group Computational Mathematics at the University of Antwerp. She is involved in mathematical research in areas of science where computing plays a central and essential role, emphasizing algorithms, numerical methods, symbolic methods and scientific computing.
+              Annie is a member of the Royal Flemish Academy of Belgium for Science and the Arts (KVAB). The main task of the Academy of Flanders is giving perspective to the societal debate on scientific and artistic topics in a neutral and interdisciplinary way.
+                          Annie is best known for her work on continued fractions, numerical analysis, Padé approximants, and related topics.
+            </div>
+            <!--<p class="px-5">
+              <b>Bio:</b> <a href="https://www.uantwerpen.be/en/staff/annie-cuyt/">Prof Annie Cuyt</a> is head of the research group Computational Mathematics at the University of Antwerp. She is involved in mathematical research in areas of science where computing plays a central and essential role, emphasizing algorithms, numerical methods, symbolic methods and scientific computing.
 Annie is a member of the Royal Flemish Academy of Belgium for Science and the Arts (KVAB). The main task of the Academy of Flanders is giving perspective to the societal debate on scientific and artistic topics in a neutral and interdisciplinary way.
-            Annie is best known for her work on continued fractions, numerical analysis, Padé approximants, and related topics.</p>
+            Annie is best known for her work on continued fractions, numerical analysis, Padé approximants, and related topics.</p>-->
           </div>
         </div>
       </section>
@@ -100,9 +139,21 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
             </div>
           </div>
           <div class="col-sm-8">
-            <b></b>
-            <p class="mt-4 px-5">
-              <a href="https://futureofknowledge.org/our-people/charis-harley-3/">Prof Charis Harley</a> is the Head of
+            <b>Title: TBC</b><br/>
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseCharis" aria-expanded="false" aria-controls="collapseCharis">
+                Abstract
+              </button>              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseCharisBio" aria-expanded="false" aria-controls="collapseCharisBio">
+                Bio
+              </button>
+            </p>
+            <div class="px-5 collapse mb-1" id="collapseCharis" style="text-align:justify;">
+              <b>Abstract:</b> TBC
+            </div>
+            <div class="px-5 collapse mb-1" id="collapseCharisBio" style="text-align:justify;">
+              <b>Bio:</b> <a href="https://futureofknowledge.org/our-people/charis-harley-3/">Prof Charis Harley</a> is the Head of
               the Data Science Across Disciplines Research Group in the Faculty of Engineering and the Built Environment
               at the University of Johannesburg, South Africa. She holds a Doctorate in Computational and Applied
               Mathematics from the University of the Witwatersrand and is a J. William Fulbright Research Scholar. As an
@@ -111,7 +162,7 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
               industry as an analyst, quantitative analyst and data scientist. Hence, while her research has
               predominantly been focused on the numerical solution of problems in fluid flow and heat transfer, she also
               conducts research in the fields of data analysis, data science and machine learning.
-            </p>
+            </div>
           </div>
         </div>
       </section>
@@ -126,9 +177,21 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
             </div>
           </div>
           <div class="col-sm-8">
-            <b></b>
-            <p class="mt-4 px-5">
-              <a href="https://jmslubuma.website/">Prof Jean M-S Lubuma</a> is a Distinguished Professor at the School
+            <b>Title: TBC</b><br/>
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseJean" aria-expanded="false" aria-controls="collapseJean">
+                Abstract
+              </button>              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseJeanBio" aria-expanded="false" aria-controls="collapseJeanBio">
+                Bio
+              </button>
+            </p>
+            <div class="px-5 collapse mb-1" id="collapseJean" style="text-align:justify;"">
+              <b>Abstract:</b> TBC
+            </div>
+            <div class="px-5 collapse mb-1" id="collapseJeanBio" style="text-align:justify;"">
+              <b>Bio:</b> <a href="https://jmslubuma.website/">Prof Jean M-S Lubuma</a> is a Distinguished Professor at the School
               of Computer Science and Applied Mathematics,
               University of the Witwatersrand, an NRF A-rated researcher, Fellow of the African Academy of
               Sciences, a Member of the Academy of Science of South Africa, and a Fellow of the Royal Society of South
@@ -137,7 +200,7 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
               His research interests lay in the constructive, numerical and computational analysis of ordinary and
               partial differential equations and integral equations,
               with the emphasis on models that arise in Science, Engineering, Technology (SET), and life science.
-            </p>
+            </div>
           </div>
         </div>
       </section>
@@ -152,9 +215,21 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
             </div>
           </div>
           <div class="col-sm-8">
-            <b></b>
-            <p class="mt-2 px-5">
-              <a href="http://www.sun.ac.za/english/research-innovation/vice-rector">Prof Sibusiso Moyo</a> is the
+            <b>Title: TBC</b><br/>
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseSibu" aria-expanded="false" aria-controls="collapseSibu">
+                Abstract
+              </button>              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseSibuBio" aria-expanded="false" aria-controls="collapseSibuBio">
+                Bio
+              </button>
+            </p>
+            <div class="px-5 collapse mb-1" id="collapseSibu" style="text-align:justify;"">
+              <b>Abstract:</b> TBC
+            </div>
+            <div class="px-5 collapse mb-1" id="collapseSibuBio" style="text-align:justify;"">
+              <b>Bio:</b> <a href="http://www.sun.ac.za/english/research-innovation/vice-rector">Prof Sibusiso Moyo</a> is the
               Deputy Vice Chancellor of Research,
               Innovation, and Postgraduate Studies at Stellenbosch University. Professor Sibusiso Moyo holds a PhD in
               Mathematics from the University of Natal, Durban and
@@ -165,7 +240,7 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
               She also is involved in a number
               of initiatives that promote mathematics amongst the youth and mentoring young women to become leaders in
               their chosen fields of interest.
-            </p>
+            </div>
           </div>
         </div>
       </section>
@@ -180,9 +255,34 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
             </div>
           </div>
           <div class="col-sm-8">
-            <b></b>
-            <p class="mt-4 px-5">
-              <a href="https://www.ma.imperial.ac.uk/~solver/">Prof Sheehan Olver</a> is a Reader in Applied Mathematics
+            <b>Title: Quasi-optimal $hp$-FEM</b><br/>
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseSheehan" aria-expanded="false" aria-controls="collapseSheehan">
+                Abstract
+              </button>              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseSheehanBio" aria-expanded="false" aria-controls="collapseSheehanBio">
+                Bio
+              </button>
+            </p>
+            <div class="px-5 collapse mb-1" id="collapseSheehan" style="text-align:justify;"">
+              <b>Abstract:</b> We consider the efficient solution of PDEs using hp-Finite Element Methods, 
+                which are finite element methods where both the grid size ($h$) and the 
+                polynomial order ($p$) may very. A classical quasi-optimal solver for h-FEM 
+                (where the polynomial degree is fixed at 1) is The Fast Poisson Solver which 
+                achieves $O(N^2\log N)$ operations with $N$ degrees of freedom in each dimension. 
+                Very recently a spectral method,  equivalent to $p$-FEM with a single element, 
+                were introduced by Fortunato and Townsend that achieves  quasi-optimal complexity
+                 as the polynomial order increases using an Alternating Direction Implicit (ADI) method. 
+                 In this talk, we extend their results for general hp-FEM, achieving complexity that 
+                 is optimal independent of the choice of h and p, by using a sparsity respecting 
+                 solver for piecewise integrated Legendre polynomials  as introduced by Babuska 
+                 combined with ADI. In addition to Poisson and screened Poisson equations on rectangles, we consider s
+                olving PDEs on disks and cylinders which are divided into annular elements using
+                 non-classical multivariate orthogonal polynomials on annuli. 
+            </div>
+            <div class="px-5 collapse mb-1" id="collapseSheehanBio" style="text-align:justify;"">
+              <b>Bio:</b> <a href="https://www.ma.imperial.ac.uk/~solver/">Prof Sheehan Olver</a> is a Reader in Applied Mathematics
               and Mathematical Physics at Imperial College London.
               His research is in numerical analysis and computational methods.
               He has developed spectral methods for ordinary and partial differential equations, singular integral
@@ -191,7 +291,7 @@ Annie is a member of the Royal Flemish Academy of Belgium for Science and the Ar
               is the creator of
               <a href="https://juliaapproximation.github.io/ApproxFun.jl/latest/">ApproxFun</a> and several other Julia
               packages.
-            </p>
+            </div>
           </div>
         </div>
       </section>
