@@ -41,6 +41,8 @@ p {
     margin-top:5px; 
     padding-bottom:0px;
     padding-top:5px;
+    font-size:large; 
+	text-transform: lowercase;
 }
 /*
 .collapse {
@@ -52,6 +54,7 @@ p {
 	font-size:large; 
 	text-transform: lowercase;
 }*/
+
 
 .container {
 	max-width:1100px;
