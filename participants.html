@@ -30,6 +30,17 @@
         });        
     </script>
 
+    <!-- Helper: force .collapse open on lg+ screens -->
+<style>
+  @media (min-width: 992px) { /* lg and up */
+    .collapse-lg-show {
+      display: block !important;
+      height: auto !important;
+      visibility: visible !important;
+    }
+  }
+</style>
+
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -68,7 +79,7 @@
   <div class="container">
 
     <section id="team" class="bg-dark-gray">
-      <h4>Plenary speakers</h4>
+
 
       <!--
     
@@ -110,140 +121,182 @@ regularly sharing his insights through his column "AI Corner" in the Eswatini Ob
           </div>
         </div>
       </section>
+
+      Sudan Hansraj
+      
+      Geoff Vasil
+
+
+    -->
    
 
-      <h4 class="mt-3 mb-0">Plenary speakers</h4>
+      <h4 class="mt-3 mb-0">Provisional plenary speakers</h4>
+
+
+<section id="team" class="bg-dark-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4 float-end">
+      <div class="team-member">
+        <img src="img/speakers/fornberg.webp" class="img-responsive rounded-circle" alt="Bengt Fornberg"
+          style="height:200px; width:200px;">
+        <h6>Prof Bengt Fornberg<br /> (University of Colorado Boulder, USA)</h6>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <!-- Mobile-only toggle -->
+      <p class="d-inline-flex gap-1 d-lg-none">
+        <button class="btn btn-primary btn-sm" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bioFornberg"
+                aria-expanded="false"
+                aria-controls="bioFornberg">
+          Show bio
+        </button>
+      </p>
+
+      <!-- Abstract (kept visible)
+      <div class="mb-1" style="text-align:justify;">
+        <b>Abstract:</b> TBC
+      </div> -->
+
+      <!-- Bio collapses on mobile, always shown on lg+ -->
+      <div id="bioFornberg" class="collapse collapse-lg-show mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof Bengt Fornberg's main research interests are in developing, analyzing, and implementing numerical methods, in particular for solving PDEs to high orders of accuracy. Such methods include pseudospectral and high accuracy finite difference methods, and methods based on radial basis functions (RBFs). Their main application areas include computational fluid dynamics, geophysical and astrophysical flows, and seismic exploration. Another interest area is computational methods in the complex plane (such as for solving the Painlevé equations, and for more general quadrature and differentiation)..</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
       
       
-      <section id="team" class="bg-dark-gray">
-        <div class="row px-3">
-          <div class="col-lg-3 col-sm-4">
-            <div class="team-member">
-              <img src="img/speakers/inger2.jpg" class="img-responsive rounded-circle" alt="Inger Fabris-Rotelli"
-                style="height:200px; width:200px;">
-              <h6>Prof Inger Fabris-Rotelli<br />(University of Pretoria)</h6>
-            </div>
-          </div>
-          <div class="col-lg-9 col-sm-8">
-            <b>Title: Spatial Linear Networks in Applications</b><br/>
-            <p class="d-inline-flex gap-1">
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#collapseInger" aria-expanded="false" aria-controls="collapseInger">
-                Click here for abstract/bio
-              </button>
-            </p>
-            <div class="collapse mb-1" id="collapseInger" style="text-align:justify;">
-              <b>Abstract:</b> This talk will cover the use of linear networks in Spatial Statistics. A variety of methods will be discussed involving analysis in a linear network space. Applications in informal roads, criminology and disease mapping will be presented.
-            </div>
-            <div class="collapse mb-1 show" id="collapseInger" style="text-align:justify;">
-              <p><b>Bio:</b> Prof Inger Fabris-Rotelli is currently an associate professor in the Department of Statistics, University of Pretoria. She has been at the Department of Statistics since 2004.
-
-She holds a PhD Mathematical Sciences, obtained in 2013, an MSc Applied Mathematics, a double BSc (Hons) in Mathematical Statistics and Applied Mathematics and a BSc Applied Mathematics.
-
-She has supervised 68 honours, 26 Masters and 7 PhD students to completion, and is currently supervising 10 honours, 6 Masters and 7 doctoral students, and has a particular passion for postgraduate supervision. She has published 33 peer-reviewed journal articles, 26 peer-reviewed conference proceedings papers and 1 book chapter.
-</p>
-
-<p>
-She was on the executive of the South African Statistical Association (SASA) from 2012 – 2018, and from 2019-2024 sat as a director on the ICCSSA (Institute of Certificated and Chartered Statisticians in South Africa) board. She is the immediate past-president of SASA and CEO of ICCSSA. She is also a member of ISI and IMS internationally, and the Golden Key Society, SASA, SAMS, GISSA, SAMSA, GASA and RLadies Johannesburg co-chair locally. She is a SACNASP council member elected 2021 – 2025 as well as a SACNASP registered scientist.
-
-Her research interests are in spatial statistics and GIS, as well as remote sensing and general image processing, including spatial epidemiology and criminology.
-</p>
-
-</div>
-          </div>
-        </div>
-      </section>
       
+<section id="team" class="bg-light-gray" style="margin-right:10px;">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member text-center">
+        <img src="img/speakers/hansraj.jpg" class="img-fluid rounded-circle" alt="Sudan Hansraj"
+             style="height:200px; width:200px; object-fit:cover;">
+        <h6 class="mt-2">Prof Sudan Hansraj<br />(University of KwaZulu Natal)</h6>
+      </div>
+    </div>
+
+    <div class="col-lg-9 col-sm-8">
+      <!-- Mobile-only toggle button -->
+      <p class="d-inline-flex gap-2 d-lg-none mb-2">
+        <button class="btn btn-primary btn-sm" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bioHansraj"
+                aria-expanded="false"
+                aria-controls="bioHansraj">
+          Show bio
+        </button>
+      </p>
+
+      <!-- Abstract (optional; leave as-is or remove if not needed) 
+      <div class="mb-1" style="text-align:justify;">
+        <b>Abstract:</b> TBC.
+      </div>-->
+
+      <!-- Bio: collapses on mobile, always shown on lg+ -->
+      <div id="bioHansraj" class="collapse collapse-lg-show mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof Sudan Hansraj matriculated from Mountview Secondary in 1983. He then obtained a Teachers
+          qualification from the Springfield College of Education and in this time developed an interest in the
+          Mathematics Olympiad. While serving as mathematics teacher at Centenary High School, he obtained a BSc in
+          Mathematics and Applied Mathematics from UNISA. Thereafter he enrolled for the Honours degree at UNISA in Pure
+          Mathematics taking papers in Galois Theory, Measure Theory and Differential Equations. While teaching at the
+          Trenance Park Secondary School, he became interested in General Relativity, after having studied it at
+          Undergraduate level and consequently began a Masters degree in Relativity. This was completed in 1996. He
+          immediately continued with doctoral work and his thesis “Exact Solutions and Conformal Transformations in
+          General Relativity” earned him the PhD from the University of Natal in 1999. In the meantime he served as
+          Lecturer in Mathematics at the Springfield College and subsequently the Durbanse Onderwyskollege. Since 2001
+          he joined the full time staff of the University of KwaZulu Natal as a senior lecturer. For recreation he plays
+          sport and is heavily involved in the promotion of recreational mathematics among school children.</p>
+      </div>
+    </div>
+  </div>
+</section>
       
-      <section id="team" class="bg-dark-gray">
-        <div class="row px-3">
-          <div class="col-lg-3 col-sm-4">
-            <div class="team-member">
-              <img src="img/speakers/ash.webp" class="img-responsive rounded-circle" alt="Ashleigh Jane Hutchinson"
-                style="height:200px; width:200px;">
-              <h6>Dr Ashleigh Hutchinson<br />(University of Manchester)</h6>
-            </div>
-          </div>
-          <div class="col-lg-9 col-sm-8">
-            <b>Title: Going with the flow: Integrating lab experiments into mathematical modelling</b> <br/> 
-            <p class="d-inline-flex gap-1">
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#collapseAsh" aria-expanded="false" aria-controls="collapseAsh">
-                                Click here for abstract/bio
-              </button>
-            </p>
-            <div class="collapse mb-1" id="collapseAsh" style="text-align:justify;">
-              <b>Abstract:</b>  It is often thought that mathematical models, where equations are derived using fundamental physical laws, lead to accurate representations of reality. After all, if we base our equations on well-established principles such as the conservation of mass, momentum, and energy, and we find solutions to these equations which are exact or numerical with an acceptably small margin of error, what could possibly go wrong? In this talk, we will examine several mathematical models that describe the behaviour of slow-moving viscous fluids in confined geometries. I will then reveal what happens when these models are tested against laboratory experiments. As we compare theory to experiment, we will discover that even when our models are built on solid physical foundations, they can neglect crucial factors that significantly impact real-world behaviour.  As a result, even a small set of laboratory experiments can play a crucial role in understanding why mathematical models may fail to represent reality. I will show how experiments and theory can be used in tandem, where lab experiments can assist in identifying missing physical mechanisms, narrowing our focus, and ultimately resulting in mathematical models that are a better representation of reality. 
-            </div>
-            <div class="collapse mb-1 show" id="collapseAsh" style="text-align:justify;">
-              <p><b>Bio:</b> Dr Ashleigh Jane Hutchinson is a Lecturer in Applied Mathematics at the University of Manchester, UK. In 2016 she earned her PhD from the University of the Witwatersrand, Johannesburg, South Africa. In 2021, she was awarded a prestigious Newton International Fellowship, allowing her to conduct research at Cambridge University, UK. Her research is primarily focused on fluid mechanics, particularly problems involving low-Reynolds number flows and non-Newtonian fluids, which have a variety of applications in both nature and industry. Dr Hutchinson’s approach to solving complex problems is multidisciplinary, combining theoretical modelling, laboratory experiments and numerical simulations. In addition to fluid dynamics, she has a keen interest in other areas of applied mathematics, including population dynamics, energy conservation, and mining.</p>
-          </div>
-        </div>
-      </section>
-      
+<section id="team" class="bg-dark-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/mathebula.jpeg" class="img-responsive rounded-circle" alt="Dephney Mathebula-Periola"
+          style="height:200px; width:200px;">
+        <h6>Dephney Mathebula-Periola<br />(University of Fort Hare)</h6>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
 
-      <section id="team" class="bg-dark-gray">
-        <div class="row px-3">
-          <div class="col-lg-3 col-sm-4">
-            <div class="team-member">
-              <img src="img/speakers/kara.jpg" class="img-responsive rounded-circle" alt="Abdul Kara"
-                style="height:200px; width:200px;">
-              <h6>Prof Abdul Kara<br />(University of the Witwatersrand)</h6>
-            </div>
-          </div>
-          <div class="col-lg-9 col-sm-8">
-            <b>Title: Symmetries & Conservation Laws of differential equations - alternate approaches and extensions</b> <br/> 
-            <p class="d-inline-flex gap-1">
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#collapseKara" aria-expanded="false" aria-controls="collapseKara">
-                                Click here for abstract/bio
-              </button>
-            </p>
-            <div class="collapse mb-1" id="collapseKara" style="text-align:justify;">
-              <b>Abstract:</b>  The relationship between symmetries and conservation laws has been a subject of interest during the 1800s and culminated in Noether's Theorem of 1918 for variational DEs. 
-In this presentation, we discuss this relationship with alternate approaches, e.g., 'partial Lagrangians' and Noether type operators. We also consider 
-the extension of this relationship to DEs with 'small parameters via approximate symmetries', discrete equations and fractional DEs.
-            </div>
-            <div class="collapse mb-1 show" id="collapseKara" style="text-align:justify;">
-              <p><b>Bio:</b> Abdul H Kara completed all his studies at Wits University and in all, but one year, has been at Wits from Junior Lecturer through to Professor; the one year being served as a school teacher. His PhD thesis involved a range of topics around the Symmetries of Differential Equations, Euler-Lagrange equations and their relationship with Conservation Laws. Abdul has published with collaborators from China, the US, Russia, Pakistan and with his students from SA and abroad. He continues to apply his work in mathematical physics, engineering and relativity and extend his ideas to Discrete Equations and Fractional Differential Equations.</p>
-          </div>
-        </div>
-      </section>
+      <!-- Mobile-only toggle -->
+      <p class="d-inline-flex gap-1 d-lg-none">
+        <button class="btn btn-primary btn-sm" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bioMathebula"
+                aria-expanded="false"
+                aria-controls="bioMathebula">
+          Show bio
+        </button>
+      </p>
+
+      <!-- Abstract (kept visible) 
+      <div class="mb-1" style="text-align:justify;">
+        <b>Abstract:</b>  TBC. 
+      </div> -->
+
+      <!-- Bio collapses on mobile, always shown on lg+ -->
+      <div id="bioMathebula" class="collapse collapse-lg-show mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof. Dephney Mathebula-Periola is a Professor of Mathematics at the University of Fort Hare. She is an active member of the African Women in Mathematical Sciences Association (AWMSA) and was recognised among the Top 100 Career Women in Africa (2024). She is also a Member of the Institute of Mathematics and its Applications (MIMA, 2023–2025), a Fellow of the Institute of Mathematics and its Applications (FIMA, 2025–present), and a recipient of the 2025 Mail & Guardian Women of Power Award in the Power Women in STEMi category.</p>
+
+<p>Her research lies in Applied Mathematics, with a particular focus on biomathematics and the mathematical modelling of infectious diseases. Her doctoral work led to several publications, including one that was ranked third among the “25 Hottest Articles” worldwide in Mathematical Biosciences in 2014. She has presented her research at numerous international conferences.</p>
+
+<p>Beyond her academic contributions, Prof. Mathebula-Periola is passionate about STEM outreach, particularly initiatives that encourage and empower young people from rural areas to pursue careers in science, technology, engineering, and mathematics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="team" class="bg-light-gray" style="margin-right:10px;">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/vasil.webp" class="img-responsive rounded-circle" alt="Geoff Vasil"
+          style="height:200px; width:200px;">
+        <h6>Prof Geoff Vasil<br />(University of Edinbrough, UK)</h6>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <!-- Mobile-only toggle -->
+      <p class="d-inline-flex gap-1 d-lg-none">
+        <button class="btn btn-primary btn-sm" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bioVasil"
+                aria-expanded="false"
+                aria-controls="bioVasil">
+          Show bio
+        </button>
+      </p>
+
+      <!-- Abstract (kept visible)
+      <div class="mb-1" style="text-align:justify;">
+        <b>Abstract:</b>  TBC
+      </div> -->
+
+      <!-- Bio collapses on mobile, always shown on lg+ -->
+      <div id="bioVasil" class="collapse collapse-lg-show mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Dr Vasil did his PhD in Geophysical and Astrophysical Fluid Dynamics at the University of Colorado. Before that, he studied mixtures of Pure and Applied Mathematics, and Theoretical Physics. He works on topics surrounding Physical Applied Maths, Fluid Mechanics, Plasma Physics, Solar Magnetohydrodynamics and Mathematical Computing.</p>
+
+<p>Since 2012, he has been a founding core-team member of the open-source Dedalus project: <a href="http://dedalus-project.org">http://dedalus-project.org</a></p>
+
+<p>Recently, Dr Vasil has been expanding into new areas. On the more pure side, the rich geometric and combinatorial structures surrounding orthogonal polynomials and special functions (useful, e.g., for the computational framework underlying Dedalus). This includes applications to probability, combinatorics, optimisation and mathematical physics. Further on the applied side, Dr Vasil has been studying differential equations on networks with contiguous edges. This work has wide-ranging applications in mathematical biology and condensed matter physics.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-
-      <section id="team" class="bg-dark-gray">
-        <div class="row px-3">
-          <div class="col-lg-3 col-sm-4 float-end">
-            <div class="team-member">
-              <img src="img/speakers/jan.webp" class="img-responsive rounded-circle" alt="Nordstrom Nordstrom"
-                style="height:200px; width:200px;">
-              <h6>Prof Jan Nordstrom<br /> (Linköping and UJ)</h6>
-            </div>
-          </div>
-          <div class="col-lg-9 col-sm-8">
-            <b>Title: Linear and Nonlinear Boundary Conditions: What's the difference?</b><br/>
-            <p class="d-inline-flex gap-1">
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#collapseNordstrom" aria-expanded="false" aria-controls="collapseNordstrom">
-                Click here for abstract/bio
-              </button>
-            </p>
-            <div class="collapse mb-1" id="collapseNordstrom" style="text-align:justify;"">
-              <b>Abstract:</b> We present a straightforward energy stable weak implementation procedure of open boundary conditions for initial boundary value problems. The new boundary procedure generalize the well-known characteristic boundary procedure for linear problems to the nonlinear setting. We discuss the differences and exemplify with boundary conditions for the shallow water equations, the Euler and Navier-Stokes equations and equations for multi-phase flows.
-            </div>
-            <div class="collapse mb-1 show" id="collapseNordstrom" style="text-align:justify;"">
-              <p><b>Bio:</b> Jan Nordström is Professor Emeritus in Computational Mathematics at the Department of Mathematics, Linköping University, Sweden, a Distinguished Visiting Professor at the Department of Mathematics and Applied Mathematics, University of Johannesburg, South Africa and an Honorary Professor in Computational Mathematics at University of Cape Town, South Africa. He is also a member of the Academy of Science of South Africa. His main interest is in Initial Boundary Value Problems (IBVPs), and in particular the fundamental effect of boundary and interface conditions on well-posedness and stability. He stresses the necessity to understand the IBVP during the development of numerical approximations.</p>
-            </div>
-          </div>
-        </div>
-      -->
-
-      TBC
-
-      </section>
-
-      
 
 
   </div>
