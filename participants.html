@@ -139,22 +139,36 @@ h6 { font-size: 0.85rem; }
         <img src="img/speakers/fornberg.webp" class="img-responsive rounded-circle" alt="Bengt Fornberg"
           style="height:200px; width:200px;">
         <h6>Prof Bengt Fornberg<br /> (University of Colorado Boulder, USA)</h6>
-                <button class="btn btn-outline-primary btn-sm" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#bioFornberg"
-                aria-expanded="false"
-                aria-controls="bioFornberg">
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absFornberg"
+                aria-expanded="false" aria-controls="absFornberg">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioFornberg"
+                aria-expanded="true" aria-controls="bioFornberg">
           Show bio
         </button>
+
       </div>
     </div>
     <div class="col-lg-9 col-sm-8">
 
             <div class="mb-1" style="text-align:justify;">
-        <b>Title:</b> TBC
+        <b>Title:</b> Radial Basis Functions (RBFs) - A half-century journey from concept to mainstream numerics.
       </div>
       
-      <div id="bioFornberg" class="collapse hide mb-1" style="text-align:justify;">
+      <div id="absFornberg" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Abstract:</b> The history of finite differences can be traced back to the 16th century. Just over a century ago, these were for the first time used to solve PDEs. Numerous variations have since then been developed to meet increasing needs for geometric flexibility and for high orders of accuracy. The breakthrough we presently focus on started somewhat unexpectedly around 1972 when radial basis functions (RBFs) proved to be superior for generating elevation contours on maps. About 20 years later, it was realized that this interpolation method was also well suited for approximating derivatives and could be used for solving PDEs. Initial obstacles in terms of computational cost and numerical stability were then gradually overcome. In the form of RBF-FD (RBF-generated Finite Differences), we have now arrived at a very flexible method that can naturally combine very high orders accuracy and complete geometric flexibility with simple implementations and computational effectiveness.
+
+ 
+
+While this presentation focuses on the task of solving PDEs, application areas of RBFs are much broader and include neural networks, pattern recognition, computer graphics and general modeling of complex data and systems.</p>
+      </div>
+
+            <div id="bioFornberg" class="collapse hide mb-1" style="text-align:justify;">
         <p><b>Bio:</b> Prof Bengt Fornberg's main research interests are in developing, analyzing, and implementing numerical methods, in particular for solving PDEs to high orders of accuracy. Such methods include pseudospectral and high accuracy finite difference methods, and methods based on radial basis functions (RBFs). Their main application areas include computational fluid dynamics, geophysical and astrophysical flows, and seismic exploration. Another interest area is computational methods in the complex plane (such as for solving the Painlevé equations, and for more general quadrature and differentiation).</p>
       </div>
     </div>
