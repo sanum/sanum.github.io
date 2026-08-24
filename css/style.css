@@ -80,12 +80,10 @@ header {
 }
 
 header .intro {
-    background:rgba(255, 255, 255, 0.4); 
-    padding-top:10px; 
-    padding-bottom:10px; 
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px 0;
     border-radius: 25px;
-    color:#000; 
-    opacity:.99;
+    color: #000;
 }
 
 header .intro-text {

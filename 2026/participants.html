@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SANUM - Speakers</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate">
+  <meta http-equiv="Content-Language" content="en">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Mathjax -->
+      <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+      MathJax.Hub.Config({
+        tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+        }
+        });
+        MathJax.Hub.Config({
+          TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });        
+    </script>
+
+    <!-- Helper: force .collapse open on lg+ screens -->
+<style>
+  @media (min-width: 992px) { /* lg and up */
+    .collapse-lg-show {
+      display: block !important;
+      height: auto !important;
+      visibility: visible !important;
+    }
+  }
+</style>
+
+<style>
+h6 { font-size: 0.85rem; }
+
+#team .row {
+  display: flex;
+  align-items: center;
+}
+#team .team-member {
+  text-align: center;
+}
+#team section {
+  margin-right: 10px;
+}
+
+</style>
+
+
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+  <!-- Navigation -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo-wb.png" height="40pt"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+            <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+            <li class="nav-item"><a class="nav-link active" href="participants.html">Speakers</a></li>
+            <li class="nav-item"><a class="nav-link" href="programme.html">Programme</a></li>
+            <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- /NAVIGATION -->
+
+
+  <div class="container">
+
+    <section id="team" class="bg-dark-gray">
+
+      <h4 class="mt-3 mb-0">Workshop presenter</h4>
+
+      <section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/vasil.webp" class="img-responsive rounded-circle" alt="Geoff Vasil"
+          style="height:200px; width:200px;">
+        <h6>Prof Geoff Vasil<br />(University of Edinburgh, UK)</h6>
+
+        <!--<button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absVasil"
+                aria-expanded="false" aria-controls="absVasil">
+          Show abstract
+        </button>-->
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioWorkshop"
+                aria-expanded="true" aria-controls="bioWorkshop">
+          Show bio
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <div class="mb-1" style="text-align:justify;">
+        <b>Workshop title:</b> Lessons on solving nearly any equation using the Dedalus computational framework
+              </div>
+
+
+      <!--<div id="absWorkshop" class="collapse  mb-1" style="text-align:justify;">
+      <p>Numerical analysis is full of perennial tradeoffs: speed versus flexibility, realism versus tractability, and (more subtly) freedom versus commitment. Make too few choices and expect inefficiency; make too many, and lock yourself into a brittle, over-specialised pipeline. This talk is about a sweet spot that appears repeatedly in mathematics and computation: choosing just enough structure.</p>
+<p>Spheres, balls, and disks sit right in that sweet spot. They are not the geometry of a race car, but they are excellent for stars, planets, and many laboratory experiments, simple enough to admit powerful representations and rich enough for serious physics. I’ll begin with spherical harmonics as the canonical basis for scalar fields on the sphere, then explain why vector and tensor PDEs force you into the broader (and often underused) world of spin-weighted spherical harmonics, with their clean calculus and beautifully sharp identities.</p>
+<p>Moving from surfaces to volumes brings in a parallel cast: Zernike polynomials. I’ll describe my efforts to build a hierarchy of generalised Zernike-type polynomial bases that support vector and tensor fields across dimensions. The story becomes even more interesting once curvilinear basis elements enter the game, naturally leading to discrete structures that expose hidden algebra and yield non-numerical insights. Along the way, I’ll present many motivating applications, for example, elastically driven turbulence in pipe flow and fully compressible convection in a spherical star, with turbulence extending all the way to the centre.</p></div>
+      -->
+
+      
+      <div id="bioWorkshop" class="collapse  mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof  Vasil did his PhD in Geophysical and Astrophysical Fluid Dynamics at the University of Colorado. Before that, he studied mixtures of Pure and Applied Mathematics, and Theoretical Physics. He works on topics surrounding Physical Applied Maths, Fluid Mechanics, Plasma Physics, Solar Magnetohydrodynamics and Mathematical Computing.</p>
+
+<p>Since 2012, he has been a founding core-team member of the open-source Dedalus project: <a href="http://dedalus-project.org">http://dedalus-project.org</a></p>
+
+<p>Recently, Dr Vasil has been expanding into new areas. On the more pure side, the rich geometric and combinatorial structures surrounding orthogonal polynomials and special functions (useful, e.g., for the computational framework underlying Dedalus). This includes applications to probability, combinatorics, optimisation and mathematical physics. Further on the applied side, Dr Vasil has been studying differential equations on networks with contiguous edges. This work has wide-ranging applications in mathematical biology and condensed matter physics.</p>
+      </div>
+
+
+      
+    </div>
+  </div>
+</section>
+
+
+
+      <h4 class="mt-3 mb-0">Plenary speakers</h4>
+
+
+<section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4 float-end">
+      <div class="team-member">
+        <img src="img/speakers/bargmann.jpeg" class="img-responsive rounded-circle" alt="Swantje Bargmann"
+          style="height:200px; width:200px;"><br>
+        <h6>Prof Swantje Bargmann<br /> (University of Wuppertal, Germany)</h6>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absBargmann"
+                aria-expanded="false" aria-controls="absBargmann">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioBargmann"
+                aria-expanded="true" aria-controls="bioBargmann">
+          Show bio
+        </button>
+
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+      
+      <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> Mathematical and computational modeling of biological and tailor-made high-performance materials
+      </div>
+
+      <div id="absBargmann" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Abstract:</b> Biological materials (e.g. teeth, wood, turtle shells, skeletal muscles) derive their exceptional mechanical performance from complex structure–property relationships across multiple length scales. These natural systems serve as role models for the development of tailor-made high-performance materials, where geometry, hierarchy, and composition are systematically engineered to achieve specific functionalities. Many of today’s key technological innovations are rooted in such bio-inspired materials design.</p>
+
+<p>This talk focuses on the mathematical and computational modeling of biological and architected materials. Alongside experimental and materials-science efforts, the theoretical community has advanced rigorous mathematical formulations—from continuum models and nonlinear constitutive laws to homogenization and multiscale theories—that provide the foundation for computational analysis. Theoretical and computational strategies naturally extend to tailor-made high performance materials such as nanoporous gold and solids based on triply periodic minimal surfaces (TPMS). Both systems mimic key features of biological structures: nanoporous gold exhibits nanoscale ligament–void networks analogous to trabecular or foam-like biological tissues, while TPMS architectures echo the smooth, continuous, and mechanically efficient geometries found in shells and skeletal frameworks. Their mechanical response can be understood—and optimized—through the same mathematical principles used to analyze biological systems.</p>
+
+<p>By linking natural and artificial hierarchical materials through a shared mathematical language, this talk highlights how mathematical modeling enables the rational design of next-generation high-performance materials.</p>
+      </div>
+
+      <div id="bioBargmann" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Swantje Bargmann is a full professor at University of Wuppertal in Germany; after having hold a full professor position at TU Hamburg (jointly with Helmholtz-Zentrum Hereon), an assistant professor position at TU Dortmund as well as guest professor positions at Chalmers University (Sweden) and University of Cape Town (South Africa). She studied mathematics at TU Kaiserslautern, where she also completed her doctorate in 2008. Her research work focuses on mathematical modeling of material behavior of solids and has received several awards, e.g Heinz Maier-Leibnitz Prize (DFG), Richard von Mises Prize (GAMM), Science Prize (Industrieclub Düsseldorf), Scientific Prize (Esaform) as well as scholarships from e.g., Japan Socienty for the Promotion of Science, National Research Foundation of Korea and Heinrich-Hertz-Foundation.</p>    
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<section id="team" class="bg-dark-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4 float-end">
+      <div class="team-member">
+        <img src="img/speakers/fornberg.webp" class="img-responsive rounded-circle" alt="Bengt Fornberg"
+          style="height:200px; width:200px;">
+        <h6>Prof Bengt Fornberg<br /> (University of Colorado Boulder, USA)</h6>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absFornberg"
+                aria-expanded="false" aria-controls="absFornberg">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioFornberg"
+                aria-expanded="true" aria-controls="bioFornberg">
+          Show bio
+        </button>
+
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+            <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> Radial Basis Functions (RBFs) - A half-century journey from concept to mainstream numerics.
+      </div>
+      
+      <div id="absFornberg" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Abstract:</b> The history of finite differences can be traced back to the 16th century. Just over a century ago, these were for the first time used to solve PDEs. Numerous variations have since then been developed to meet increasing needs for geometric flexibility and for high orders of accuracy. The breakthrough we presently focus on started somewhat unexpectedly around 1972 when radial basis functions (RBFs) proved to be superior for generating elevation contours on maps. About 20 years later, it was realized that this interpolation method was also well suited for approximating derivatives and could be used for solving PDEs. Initial obstacles in terms of computational cost and numerical stability were then gradually overcome. In the form of RBF-FD (RBF-generated Finite Differences), we have now arrived at a very flexible method that can naturally combine very high orders accuracy and complete geometric flexibility with simple implementations and computational effectiveness.
+
+ 
+
+While this presentation focuses on the task of solving PDEs, application areas of RBFs are much broader and include neural networks, pattern recognition, computer graphics and general modeling of complex data and systems.</p>
+      </div>
+
+            <div id="bioFornberg" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof Bengt Fornberg's main research interests are in developing, analyzing, and implementing numerical methods, in particular for solving PDEs to high orders of accuracy. Such methods include pseudospectral and high accuracy finite difference methods, and methods based on radial basis functions (RBFs). Their main application areas include computational fluid dynamics, geophysical and astrophysical flows, and seismic exploration. Another interest area is computational methods in the complex plane (such as for solving the Painlevé equations, and for more general quadrature and differentiation).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4 float-end">
+      <div class="team-member">
+        <img src="img/speakers/flyer.jpg" class="img-responsive rounded-circle" alt="Natasha FLyer"
+          style="height:200px; width:200px;">
+        <h6>Prof Natasha Flyer<br /> (University of Colorado Boulder, USA)</h6>
+                <button class="btn btn-outline-primary btn-sm" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#bioFlyer"
+                aria-expanded="false"
+                aria-controls="bioFlyer">
+          Show bio
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+      
+      <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> Nuances of Machine Learning Algorithms for Rare Event or Sparse Data
+      </div>
+
+      
+      <div id="bioFlyer" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Natasha Flyer's background is in applied/computational mathematics and algorithm
+development directed towards the solar/geo-sciences, specifically for forecasting natural
+events. Her specialty is to create new mathematical techniques that can be easily
+customizable for computational applications in the above-mentioned fields. Her
+collaborations and business interactions have included working with space weather
+forecasters, climate modelers, meteorologists, oceanographers, and solid Earth
+geophysicists. She was a scientist in the Computational and Information Systems Lab at the
+National Center for Atmospheric Research for over 20 years. She currently runs her own
+professional consulting firm and is an Adjunct Professor at the University of Colorado,
+Boulder, Dept. of Applied Mathematics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+-->
+
+
+      
+      
+      
+<section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member text-center">
+        <img src="img/speakers/hansraj.jpg" class="img-fluid rounded-circle" alt="Sudan Hansraj"
+             style="height:200px; width:200px; object-fit:cover;">
+        <h6 class="mt-2">Prof Sudan Hansraj<br />(University of KwaZulu-Natal)</h6>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absHansraj"
+                aria-expanded="false" aria-controls="absHansraj">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioHansraj"
+                aria-expanded="true" aria-controls="bioHansraj">
+          Show bio
+        </button>
+
+
+      </div>
+    </div>
+
+    <div class="col-lg-9 col-sm-8">
+
+      <!-- Title -->
+<div class="mb-1" style="text-align:justify;">
+  <b>Title:</b> Numerical techniques in the mathematics of gravitation
+</div>
+
+        <div id="absHansraj" class="collapse hansraj-swap mb-1 hide" style="text-align:justify;">
+<b>Abstract:</b> The gravitational field remains the most mysterious of the four fundamental forces in nature. 
+The general theory of relativity (GR) built from the Einstein-Hilbert lagrangian is the most successful 
+theories of gravity to date. Nevertheless, it has a number of serious shortcomings necessitating  modifications. 
+Currently GR relies on the possible existence of exotic matter for which no support has emerged to date. 
+However, a different school of thought works on extending the geometrical sector to accommodate what is 
+actually observed. As a consequence a number of modified theories have emerged in the recent past in an 
+effort to succeed GR. Each of these must also pass basic tests such as diffeomorphism and Lorentz invariance 
+and the Bianchi identities. When GR is applied to construct models of stars, a coupled system of 10 nonlinear 
+partial differential equations arises in general in four dimensions. The number reduces to 3 if spherical 
+symmetry is assumed however in the case of isotropic or perfect fluid matter field there are 4 unknowns. 
+This means that an extra closure condition must be stipulated. The most important physical constraint that 
+could be imposed is an equation of state relating two of the variables. The caveat is that the master 
+differential equation is not solvable exactly for physically relevant cases. Numerical schemes must be 
+implemented to reveal the characteristics of the gravitational field. Ad hoc assumptions on some of the 
+dynamical variables may also be made for mathematical expediency however the likelihood of the solution 
+satisfying an equation of state is slim. Some 120 exact solutions have been reported over the past century. 
+Of these only fewer than 10 tick all the boxes for physical acceptability. The trade-off going down the 
+numerical route, on the other hand,  is that while the dynamics may be understood to high degrees of 
+accuracy, the geometry in the form of the metric remains unknown. In this talk we shall discuss the 
+umerical schemes employed to solve the Tolman-Oppenheimer-Volkoff equation which emanates from the 
+conservation laws also known as the condition for hydrodynamical stability or continuity equation. 
+This equation follows from the 3 field  equations however it may substitute any one. 
+The system has precisely 3 independent equations. We will examine how the mass-radius relations can 
+be found using numerical techniques. Finally we shall comment on how the latest information coming 
+from the Nobel-prize winning work on gravitational waves can be used in the study of stellar structure.
+      </div>
+
+      <!-- Bio: collapses on mobile, always shown on lg+ -->
+      <div id="bioHansraj" class="collapse mb-1 hansraj-swap hide" style="text-align:justify;" aria-expanded="true" >
+        <p><b>Bio:</b> Sudan Hansraj is professor of applied mathematics at the University of KwaZulu-Natal, 
+          Durban, South Africa. His research area is Einsteins general theory of relativity and its modifications. 
+          He belongs to the school of thought that espouses correction to the action namely the geometric sector of 
+          the standard theory to address its shortcomings such as inability to explain the late-time accelerated 
+          expansion of the universe without an appeal to exotic matter. He has published some 85 research articles 
+          almost 80% in the Q1 category (top 25% in the field) including 8 in the celebrated Physical Review D. 
+          He is an NRF rated researcher and has featured in the Standford University ranking of the top 2% of 
+          scientists in the world regularly. He is an elected Fellow of the Royal Astronomy Society (UK). 
+          Some of his visiting international appointments include: University College London, University of Milan, 
+          University of Rio de Janeiro, Chinese University of Hong Kong, Universite de Paris 7th, Inter-University 
+          Centre for Astronomy and Astrophysics India, Jamia Milia University India, IESER Kolkata, India; 
+          Niels Bohr Institute Copenhagen. He has participated in over 80 local and intenational conferences with 5 
+          Plenary/ keynote Talks. At UKZN he served as an Academic Leader Mathematics (5 years) and chair of the
+           Institutional Forum – a statutory structure tother with the Senate and Council. On the national scence 
+           he has been worked with the South African Mathematics Olympiad since 1996 and has served as an IMO jury member. 
+           He is a founding member, SA Mathematics Foundation (SAMF) 
+          and is currently president of the South African Gravity Society. Prof Hansraj has aalso served the nation on 
+          the UMALUSI Council Standardisation Committee for 16 years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+      
+<section id="team" class="bg-dark-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/mathebula.jpeg" class="img-responsive rounded-circle" alt="Dephney Mathebula-Periola"
+          style="height:200px; width:200px;">
+        <h6>Prof Dephney Mathebula-Periola<br />(University of Fort Hare)</h6>
+
+                <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absMathebula"
+                aria-expanded="false" aria-controls="absMathebula">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioMathebula"
+                aria-expanded="true" aria-controls="bioMathebula">
+          Show bio
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> Dynamical systems modelling of infectious diseases in rural and resource-limited settings: From theory to impact
+      </div>
+
+      <div id="absMathebula" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Asbtract:</b> This talk focuses on how mathematical biology and dynamical systems theory contribute to understanding infectious disease systems in rural and resource-limited settings. Building on biomathematical, multiscale, and optimal control modelling approaches, the talk highlights how context-informed frameworks address key challenges such as limited data availability, population heterogeneity, and constrained intervention options. Selected case studies illustrate how mathematical insights can inform sustainable and cost-effective disease control strategies, bridging the gap between theory and real-world public health practice. The talk concludes by discussing key lessons learned and future directions for impactful mathematical modelling of infectious diseases in rural and limited-resource settings.</p>
+      </div>
+
+
+
+      <div id="bioMathebula" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof Dephney Mathebula-Periola is a Full Professor of Mathematics at the University of Fort Hare and the first South African to obtain a PhD in Mathematics from the University of Venda. Her research focuses on Biomathematics, particularly on the mathematical modelling of infectious diseases. She has presented her work at international and local conferences and published extensively in high-impact journals. Prof Mathebula-Periola was honoured with the 2025 Mail & Guardian Power of Women Award in the STEMi category and recognised among the Top 100 Career Women in Africa (2024) for her remarkable contributions to science, leadership, and mentorship. She is passionate about advancing women in STEM and nurturing the next generation of African scientists.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+<section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/milewski.jpg" class="img-responsive rounded-circle" alt="Paul Milewski"
+          style="height:200px; width:200px;">
+        <h6>Prof Paul Milewski<br />(Penn State University, USA)</h6>
+
+                <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absMilewski"
+                aria-expanded="false" aria-controls="absMilewski">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioMilewski"
+                aria-expanded="true" aria-controls="bioMilewski">
+          Show bio
+        </button>
+
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+            <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> Resonance of surface water waves in cylindrical containers
+      </div>
+
+
+      <div id="absMilewski" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Abstract:</b> Nonlinear waves sloshing in a container of rectangular cross-section can behave very differently than those with other cross sections. Nonlinear resonance is a mechanism by which energy is continuously exchanged between a small number of wave modes and is common to many nonlinear dispersive wave systems. In the context of free-surface gravity waves such as ocean surface waves, nonlinear resonances have been studied extensively over the past 60-years, almost always on domains that are large (or infinite) compared to the characteristic wavelength. In this case, the dispersion relation dictates that only quartic (4-wave) resonances can occur. In contrast, nonlinear resonances in confined three-dimensional geometries have received relatively little attention, where, perhaps surprisingly, stronger 3-wave resonances can occur. We will present the results characterizing the configuration and dynamics of resonant triads in cylindrical basins of arbitrary cross sections, demonstrating that these triads are ubiquitous, with (the commonly studied) rectangular cross section being an exception where they do not occur. I will also mention environmental and engineering applications.</p>
+      </div>
+
+      <div id="bioMilewski" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof Paul Milewski is Professor and Head of the Department of Mathematics at Pennsylvania State University, USA. He works in applied mathematics with a focus on nonlinear waves, fluid mechanics, and computational modelling. After completing his PhD at MIT, he held positions at Stanford University and the University of Wisconsin–Madison before moving to the University of Bath, where he later served as Head of Mathematical Sciences. His research combines analytical and numerical approaches to understand complex wave phenomena in fluids and related systems. He is a recipient of the Alfred P. Sloan Research Fellowship and the Royal Society Wolfson Merit Award.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="bg-dark-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/sibanda.jpg" class="img-responsive rounded-circle" alt="Precious Sibanda"
+          style="height:200px; width:200px;">
+        <h6>Prof Precious Sibanda<br />(University of KwaZulu-Natal)</h6>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absSibanda"
+                aria-expanded="false" aria-controls="absSibanda">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioSibanda"
+                aria-expanded="true" aria-controls="bioSibanda">
+          Show bio
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b> A spectral optimized multi-derivative hybrid block method for FitzHugh-Nagumo equations
+      </div>
+      <div id="absSibanda" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Abstract:</b> The FitzHugh-Nagumo equations provide a canonical model for
+excitable systems in biology and neuroscience and pose significant
+challenges due to their nonlinear and stiff character. This talk
+presents a spectral optimized multi-derivative hybrid block method
+for their efficient numerical solution. The time integration scheme
+is derived using a multistep collocation and interpolation approach
+based on an approximated power series and incorporates two optimally
+selected intra-step points to enhance accuracy and stability. The
+method is shown to be consistent and convergent, with its absolute
+stability properties rigorously established.</p>
+
+<p>For the spatial discretization of the associated partial
+differential equations, the time integrator is coupled with a
+spectral collocation method, following a linear partitioning of the
+governing equations. Numerical experiments demonstrate that the
+resulting fully discrete scheme achieves high accuracy and
+efficiency compared with existing methods, highlighting its
+effectiveness for nonlinear evolution problems requiring strong
+stability and spectral-level resolution.</p>
+      </div>
+      <div id="bioSibanda" class="collapse hide mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Professor Precious Sibanda is an NRF-rated researcher and Professor of Applied Mathematics. He holds an MSc and PhD in Applied Mathematics from the University of Manchester. His research, spanning over 29 years focusses on theoretical and computational fluid dynamics, numerical methods, and mathematical biology. He is a dedicated mentor and has supervised numerous (over 50 MSc/PhD) postgraduate students. Professor Sibanda is an elected Member of the Academy of Science of South Africa (ASSAf) and a former Finamcial Manager and President of the South African Mathematical Society (SAMS). He has previously served as a SAMS representative on national bodies such as the South African National Committee for the IMU (SANCIMU)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="team" class="bg-light-gray">
+  <div class="row px-3">
+    <div class="col-lg-3 col-sm-4">
+      <div class="team-member">
+        <img src="img/speakers/vasil.webp" class="img-responsive rounded-circle" alt="Geoff Vasil"
+          style="height:200px; width:200px;">
+        <h6>Prof Geoff Vasil<br />(University of Edinburgh, UK)</h6>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#absVasil"
+                aria-expanded="false" aria-controls="absVasil">
+          Show abstract
+        </button>
+
+        <button class="btn btn-sm btn-outline-primary" type="button"
+                data-bs-toggle="collapse" data-bs-target="#bioVasil"
+                aria-expanded="true" aria-controls="bioVasil">
+          Show bio
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-9 col-sm-8">
+
+      <div class="mb-1" style="text-align:justify;">
+        <b>Title:</b>  Sphere we go again: lessons on solving equations in curved spaces with polynomials and tensors 
+      </div>
+
+
+      <div id="absVasil" class="collapse  mb-1" style="text-align:justify;">
+      <p>Numerical analysis is full of perennial tradeoffs: speed versus flexibility, realism versus tractability, and (more subtly) freedom versus commitment. Make too few choices and expect inefficiency; make too many, and lock yourself into a brittle, over-specialised pipeline. This talk is about a sweet spot that appears repeatedly in mathematics and computation: choosing just enough structure.</p>
+<p>Spheres, balls, and disks sit right in that sweet spot. They are not the geometry of a race car, but they are excellent for stars, planets, and many laboratory experiments, simple enough to admit powerful representations and rich enough for serious physics. I’ll begin with spherical harmonics as the canonical basis for scalar fields on the sphere, then explain why vector and tensor PDEs force you into the broader (and often underused) world of spin-weighted spherical harmonics, with their clean calculus and beautifully sharp identities.</p>
+<p>Moving from surfaces to volumes brings in a parallel cast: Zernike polynomials. I’ll describe my efforts to build a hierarchy of generalised Zernike-type polynomial bases that support vector and tensor fields across dimensions. The story becomes even more interesting once curvilinear basis elements enter the game, naturally leading to discrete structures that expose hidden algebra and yield non-numerical insights. Along the way, I’ll present many motivating applications, for example, elastically driven turbulence in pipe flow and fully compressible convection in a spherical star, with turbulence extending all the way to the centre.</p></div>
+
+      
+      <div id="bioVasil" class="collapse  mb-1" style="text-align:justify;">
+        <p><b>Bio:</b> Prof  Vasil did his PhD in Geophysical and Astrophysical Fluid Dynamics at the University of Colorado. Before that, he studied mixtures of Pure and Applied Mathematics, and Theoretical Physics. He works on topics surrounding Physical Applied Maths, Fluid Mechanics, Plasma Physics, Solar Magnetohydrodynamics and Mathematical Computing.</p>
+
+<p>Since 2012, he has been a founding core-team member of the open-source Dedalus project: <a href="http://dedalus-project.org">http://dedalus-project.org</a></p>
+
+<p>Recently, Dr Vasil has been expanding into new areas. On the more pure side, the rich geometric and combinatorial structures surrounding orthogonal polynomials and special functions (useful, e.g., for the computational framework underlying Dedalus). This includes applications to probability, combinatorics, optimisation and mathematical physics. Further on the applied side, Dr Vasil has been studying differential equations on networks with contiguous edges. This work has wide-ranging applications in mathematical biology and condensed matter physics.</p>
+      </div>
+
+
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row px-3">
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.js"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/agency.js"></script>
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
